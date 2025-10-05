@@ -17,7 +17,6 @@ Minimal password vault MVP:
 ```bash
 cd backend
 npm install
-# set env vars in .env (see .env.example)
 npm run start
 ```
 
@@ -30,7 +29,7 @@ npm run dev
 
 
 ## Notes (crypto)
-Client uses Web Crypto Subtle API with PBKDF2 (200k iterations, SHA-256) to derive an AES-GCM 256-bit key from the user's password. Each vault item is encrypted locally; the server only stores ciphertext + iv + salt metadata.
+Used Web Crypto Subtle API with PBKDF2  to derive an AES-GCM 256-bit key from the user's password. Each vault item is encrypted locally; the server only stores ciphertext + iv + salt metadata.
 # Password_vault
 
 # Deployed Backend url
