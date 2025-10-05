@@ -1,0 +1,8 @@
+body{ font-family: system-ui, sans-serif; background:#f6f7fb; color:#111; }
+.container{ max-width:900px; margin:20px auto; padding:20px; background:#fff; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+input, button, select, textarea{ font-size:14px; padding:8px; margin:6px 0; }
+.row{ display:flex; gap:8px; align-items:center; }
+.vault-list{ margin-top:14px; }
+.item{ padding:10px; border:1px solid #eee; margin-bottom:8px; border-radius:6px; }
+.generator{ border:1px dashed #ddd; padding:10px; border-radius:6px; margin-bottom:10px; }
+.logout{ float:right; }
